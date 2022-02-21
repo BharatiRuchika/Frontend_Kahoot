@@ -10,8 +10,8 @@ var connectionOptions = {
 	 secure: true, reconnection: true, rejectUnauthorized: false 
 };
 
-// https://my-kahoot-backend.herokuapp.com/
-let socket = io.connect('http://localhost:5000/',connectionOptions);
+// 
+let socket = io.connect('https://my-kahoot-backend.herokuapp.com/',connectionOptions);
 
 console.log("socket",socket);
 export default socket;
