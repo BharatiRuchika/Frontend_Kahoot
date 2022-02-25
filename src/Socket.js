@@ -11,7 +11,8 @@ var connectionOptions = {
 };
 
 // 
-let socket = io.connect('https://my-kahoot-backend.herokuapp.com/',connectionOptions);
+// let socket = io.connect('https://my-kahoot-backend.herokuapp.com/',connectionOptions);
+let socket = io.connect()
 
 console.log("socket",socket);
 export default socket;
