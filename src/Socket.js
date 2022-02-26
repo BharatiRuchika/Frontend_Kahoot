@@ -6,13 +6,13 @@ var connectionOptions = {
 	"reconnect":true,
 	"reconnectionAttempts": "Infinity",
 	"timeout" : 10000,				
-	"transports" : ["polling"],
+	"transports" : ["websocket"],
 	 secure: true, reconnection: true, rejectUnauthorized: false 
 };
 
 // 
 // let socket = io.connect('https://my-kahoot-backend.herokuapp.com/',connectionOptions);
-let socket = io("https://secure-ravine-99917.herokuapp.com/");
+let socket = io("https://secure-ravine-99917.herokuapp.com/",connectionOptions);
 // const socket = io.connect("https://my-kahoot-backend.herokuapp.com/", { secure: true, reconnection: true, rejectUnauthorized: false });
 console.log("socket",socket);
 export default socket;
