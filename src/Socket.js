@@ -12,7 +12,7 @@ var connectionOptions = {
 
 // 
 // let socket = io.connect('https://my-kahoot-backend.herokuapp.com/',connectionOptions);
-let socket = io("https://secure-ravine-99917.herokuapp.com/",connectionOptions);
+let socket = io("wss://secure-ravine-99917.herokuapp.com",connectionOptions);
 // const socket = io.connect("https://my-kahoot-backend.herokuapp.com/", { secure: true, reconnection: true, rejectUnauthorized: false });
 console.log("socket",socket);
 export default socket;
