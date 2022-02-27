@@ -32,11 +32,7 @@ function GameOver(props){
             <h2 className='leaderBoard'>2nd Place: {props.leaderboard[1].name}</h2>
             <h2 className='leaderBoard'>Last Place: {props.leaderboard.pop().name}</h2>
             <br/>
-            <Link to={`/host/${props.userId}`}>
-            <button className='btn-newGame'>
-            Start a new Game?
-            </button>
-            </Link>
+           
         </div> 
     )
 }
