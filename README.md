@@ -8,4 +8,4 @@ Live demo
 https://ruchikaskahoot.netlify.app/
 
 Back end source code
-https://github.com/BharatiRuchika/SocialMediaProject
+https://github.com/BharatiRuchika/Backend_Kahoot
